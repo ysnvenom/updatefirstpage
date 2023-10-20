@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+    color: rgb(46, 46, 46);
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+
+a:hover {
+    color: rgb(153, 153, 153);
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding: 50px 50px;
+}
+
+.head {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    border-radius: 30px;
+    padding-bottom: 8px;
+}
+
+.card {
+    margin-bottom: 30px;
+    background: rgb(248, 248, 248);
+    padding: 30px 40px;
+    border-radius: 15px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.list {
+    padding: 0px 15px;
+}
+
+.list li {
+    margin-bottom: 6px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+    padding-bottom: 8px;
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+.support {
+    text-align: center;
+}
+
+.support textarea,
+.support input {
+    width: 100%;
+    outline: none;
+    background: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 13px;
+    box-sizing: border-box;
+    padding: 6px 10px;
+}
+
+.support h2 {
+    margin-bottom: 13px;
+}
